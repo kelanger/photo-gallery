@@ -51,8 +51,7 @@ input::placeholder{
 
 .lightboxOverlay {
 	background-color: #282828;
-  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
-  opacity: 0.95;
+  	opacity: 0.95;
 }
 
 .lightbox .lb-image {
