@@ -1,0 +1,65 @@
+/* Mobile First  */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	color: #4a4a4a;
+	font-family: 'Rubik', sans-serif;
+	background-color: #fafafa;
+	text-align: center;
+	margin: 0 auto;
+}
+
+main {
+	margin: 0 auto;
+	max-width: 800px;
+}
+
+.container {
+	display: flex;
+    align-items: center;
+}
+
+.photo {
+	height: 150px;
+	width: 150px;
+	margin: 20px;
+	display: inline-flex;
+}
+
+/*Lightbox changes*/
+
+.lightboxOverlay {
+	background-color: #282828;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=95);
+  opacity: 0.95;
+}
+
+.lightbox .lb-image {
+	border: none;
+	border-radius: 0;
+}
+
+.lb-nav a.lb-next {
+  position: relative;
+  right: -100px;
+  top: 0;
+}
+.lb-nav a.lb-prev {
+  position: relative;
+  left: -100px;
+  top: 0;
+}
+
+.lb-close {
+	visibility: hidden;
+}
+
+.lb-data .lb-details {
+	height: auto;
+	margin: 30px auto 0;
+	float: none;
+}
