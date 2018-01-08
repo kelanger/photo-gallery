@@ -4,3 +4,7 @@ lightbox.option({
     })
 
 // $('.lb-image').css('border', 'none');
+
+$('#search').hideseek({
+    attribute: 'data-keywords'
+});
